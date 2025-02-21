@@ -42,33 +42,36 @@ main {
 
 .sidebar {
     border: #9ad79b 1px dotted;
-    position: absolute;
-    width: 300px;
-    margin-top: 60px;
-    right: 0;
+    position: relative;
+    width: 200px;
+    margin-left: auto;
+    margin-top: 20px;
 }    
 
 .features {
     border: #9ad79b 1px dotted;
     margin: 20px auto;
     padding: 20px;
+    width: 100%;
 }
 
 .features h2 {
     position: relative;
-    left: 50%;
+    text-align: center;
 }
 
 .feature {
     position: relative;
-    left: 50%;
+    text-align: center;
 }
 
 
 footer {
     border: #9ad79b 1px dotted;
-    position: sticky;
+    position: absolute;
+    bottom: 0;
     padding: 20px;
-    margin-top: 200px;
+    width: 100%;
+    text-align:center;
 }
 
